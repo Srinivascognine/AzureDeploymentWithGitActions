@@ -2,10 +2,10 @@ name: Deploy ASP.NET MVC to Azure App Service
 on:
   push:
     branches:
-      - main  # Change to your main branch
+      - master  # Change to your main branch
   pull_request:
     branches:
-      - main
+      - master
 
 jobs:
   build:
