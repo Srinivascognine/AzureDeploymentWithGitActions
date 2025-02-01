@@ -50,5 +50,5 @@ jobs:
       uses: azure/webapps-deploy@v2
       with:
         app-name: 'AzureDeploymentswithGitActions'  # Replace with your Azure App Service name
-        publish-profile: ${{ secrets.shared }}
+        publish-profile: ${{ secrets.SHARED }}
         package: ./publish
